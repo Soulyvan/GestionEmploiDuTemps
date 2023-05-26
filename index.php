@@ -131,13 +131,13 @@ class Cours
                     <td class="p-0"><input readonly value="Samedi" type="text" class="form-control bg-white fw-bold rounded-0"></td>
                 </tr>
                 <tr id="exempleLigne" class="d-none">
-                    <td class="p-0"><input placeholder="ex: 8h - 9h" type="text" class="form-control rounded-0"></td>
-                    <td class="p-0"><input placeholder="ex: Maths" type="text" class="form-control rounded-0"></td>
-                    <td class="p-0"><input placeholder="ex: Anglais" type="text" class="form-control rounded-0"></td>
-                    <td class="p-0"><input placeholder="ex: Physique" type="text" class="form-control rounded-0"></td>
-                    <td class="p-0"><input placeholder="ex: Français" type="text" class="form-control rounded-0"></td>
-                    <td class="p-0"><input placeholder="ex: Chimie" type="text" class="form-control rounded-0"></td>
-                    <td class="p-0"><input placeholder="ex: Dessin" type="text" class="form-control rounded-0"></td>
+                    <td class="p-0"><input readonly placeholder="ex: 8h - 9h" type="text" class="form-control rounded-0"></td>
+                    <td class="p-0"><input readonly placeholder="ex: Maths" type="text" class="form-control rounded-0"></td>
+                    <td class="p-0"><input readonly placeholder="ex: Anglais" type="text" class="form-control rounded-0"></td>
+                    <td class="p-0"><input readonly placeholder="ex: Physique" type="text" class="form-control rounded-0"></td>
+                    <td class="p-0"><input readonly placeholder="ex: Français" type="text" class="form-control rounded-0"></td>
+                    <td class="p-0"><input readonly placeholder="ex: Chimie" type="text" class="form-control rounded-0"></td>
+                    <td class="p-0"><input readonly placeholder="ex: Dessin" type="text" class="form-control rounded-0"></td>
                 </tr>
                 <?php
                 $cours = new Cours(); // On crée une instance de Cours
